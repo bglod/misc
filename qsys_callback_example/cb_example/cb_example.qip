@@ -1,0 +1,5 @@
+# Qsys copies the QIP file into its synthesis directory, so all relative paths
+# need to be with respect to that directory.
+set hdl_dir [file join $::quartus(qip_path) ../../../cb_example]
+
+set_global_assignment -name VHDL_FILE -hdl_version VHDL_2008 [file normalize [file join $hdl_dir vhdl/cb_example_top.vhd]]

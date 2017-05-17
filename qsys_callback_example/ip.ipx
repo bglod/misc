@@ -1,0 +1,4 @@
+<!-- Paths are relative to wherever Qsys is called -->
+<library>
+        <path path="../cb_example/**/*"/>
+</library>
