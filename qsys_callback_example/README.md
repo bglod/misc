@@ -3,7 +3,7 @@ An example of how to create a Qsys component with elaboration callbacks. Note th
 
 | Directory or File       | Description                                                                                       |
 | ----------------------- |:--------------------------------------------------------------------------------------------------|
-| [cb_example]            | Contains the Qsys component with callbacks                                                        |
-| [cb_example_system.tcl] | Tcl script to generate a Qsys system utilizing the component.                                     |
-| [generate_qsys.sh]      | Shell script simplifying the Qsys generation steps                                                |
-| [ip.ipx]                | Qsys IPX file (IP search path XML)                                                                |
+| cb_example              | Contains the Qsys component with callbacks                                                        |
+| cb_example_system.tcl   | Tcl script to generate a Qsys system utilizing the component.                                     |
+| generate_qsys.sh        | Shell script simplifying the Qsys generation steps                                                |
+| ip.ipx                  | Qsys IPX file (IP search path XML)                                                                |
