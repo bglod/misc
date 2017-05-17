@@ -27,10 +27,10 @@ qsys-script   --cmd="set qsys_name ${qsys_filename}; set device 5CEBA2F17A7" \
               --script="../${qsys_filename}.tcl"
 
 # Generate the HDL from the .qsys
-qsys-generate --synthesis=VHDL "${qsys_filename}.qsys"
+#qsys-generate --synthesis=VHDL "${qsys_filename}.qsys"
 
 # Open Qsys GUI
-qsys-edit "${qsys_filename}.qsys"
+#qsys-edit "${qsys_filename}.qsys"
 
 popd > /dev/null
 
